@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="image">Hover over an image below to display here.</div>
+    <div class="thumbnail-container">
+      <img
+        src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        class="thumbnail"
+        onmouseover="upDate(this)"
+        onmouseout="undo()"
+      />
+      <img
+        src="https://images.pexels.com/photos/620337/pexels-photo-620337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        class="thumbnail"
+        onmouseover="upDate(this)"
+        onmouseout="undo()"
+      />
+      <img
+        src="https://images.pexels.com/photos/38326/pexels-photo-38326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        class="thumbnail"
+        onmouseover="upDate(this)"
+        onmouseout="undo()"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
